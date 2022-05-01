@@ -3,7 +3,7 @@ name: dockerize-on-mtrain
 on:
   push:
     paths:
-      - mnist_train/**
+      - mtrain/**
       - .github/workflows/dockerize.yml # yaml이 변경될 때도 workflow 실행되게
 jobs:
   dockerize:
